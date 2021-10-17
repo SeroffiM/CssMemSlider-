@@ -60,33 +60,32 @@ img {
 }
 
 
+#slide-1:checked ~ .dots-container .dot-1 .span-dot,
+#slide-2:checked ~ .dots-container .dot-2 .span-dot,
+#slide-3:checked ~ .dots-container .dot-3 .span-dot,
+#slide-4:checked ~ .dots-container .dot-4 .span-dot {
+  background: #000;
+  border: 3px#6d9ac9 solid;
+}
+#slide-1:checked ~ .dots-container .dot-1:hover .span-dot,
+#slide-2:checked ~ .dots-container .dot-2:hover .span-dot,
+#slide-3:checked ~ .dots-container .dot-3:hover .span-dot,
+#slide-4:checked ~ .dots-container .dot-4:hover .span-dot {
+  border-color: #fff;
+}
 
 
-#slide-1:checked ~ .text-container .text-1 {
-  opacity: 1;
-  order: -1;
-}
-#slide-1:checked ~ .text-container .text-1 .slide-text {
-  transform: translateX(0);
-}
-#slide-2:checked ~ .text-container .text-2 {
-  opacity: 1;
-  order: -1;
-}
-#slide-2:checked ~ .text-container .text-2 .slide-text {
-  transform: translateX(0);
-}
-#slide-3:checked ~ .text-container .text-3 {
-  opacity: 1;
-  order: -1;
-}
-#slide-3:checked ~ .text-container .text-3 .slide-text {
-  transform: translateX(0);
-}
+
+#slide-1:checked ~ .text-container .text-1,
+#slide-2:checked ~ .text-container .text-2,
+#slide-3:checked ~ .text-container .text-3,
 #slide-4:checked ~ .text-container .text-4 {
   opacity: 1;
   order: -1;
 }
+#slide-1:checked ~ .text-container .text-1 .slide-text,
+#slide-2:checked ~ .text-container .text-2 .slide-text,
+#slide-3:checked ~ .text-container .text-3 .slide-text,
 #slide-4:checked ~ .text-container .text-4 .slide-text {
   transform: translateX(0);
 }
