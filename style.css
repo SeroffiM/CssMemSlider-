@@ -145,3 +145,25 @@ input[type=radio] {
 .carousel {
   overflow: hidden;
 }
+.text-overflow-wrapper {
+  overflow: hidden;
+}
+.text-overflow {
+  display: flex;
+  height: 100%;
+  width: calc(100% * 4);
+}
+.slide-text {
+  font-size: 4rem;
+  width: max-content;
+  transition: transform 0.65s ease-in-out;
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+  transform: translateX(40%);
+  width: 100%;
+  word-wrap: break-word
+}
+.slide-text-wrapper {
+  transition: transform 0.65s ease-in-out;
+  opacity: 0;
+  width: 100%;
+}
