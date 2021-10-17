@@ -1,9 +1,13 @@
+root {
+  --font-size: 10px;
+}
+
 body,html,ul,ol,p {
   padding: 0;
   margin: 0;
 }
 html {
-  font-size: 10px;
+  font-size: var(--font-size);
   font-family: Montserrat;
   font-style: normal;
   height: 100vh;
@@ -65,7 +69,7 @@ img {
 #slide-3:checked ~ .dots-container .dot-3 .span-dot,
 #slide-4:checked ~ .dots-container .dot-4 .span-dot {
   background: #000;
-  border: 3px#6d9ac9 solid;
+  border: 0.3rem#6d9ac9 solid;
 }
 #slide-1:checked ~ .dots-container .dot-1:hover .span-dot,
 #slide-2:checked ~ .dots-container .dot-2:hover .span-dot,
@@ -156,7 +160,7 @@ input[type=radio] {
   font-size: 4rem;
   width: max-content;
   transition: transform 0.65s ease-in-out;
-  text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+  text-shadow: 0.2rem 0.2rem 0.3rem rgba(255,255,255,0.1);
   transform: translateX(40%);
   width: 100%;
   word-wrap: break-word
@@ -180,7 +184,7 @@ input[type=radio] {
     "text";
   grid-template-columns: 1fr ;
   grid-template-rows: 55vh 1fr 10fr;
-  row-gap: 5px;
+  row-gap: 0.5rem;
   }
   .main {
     padding: 1.rem;
