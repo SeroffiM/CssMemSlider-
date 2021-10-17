@@ -6,8 +6,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CssMem</title>
   <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-  
+  <div class="main">
+    <div class="slides-container">
+      <input type="radio" id="slide-1" name="slides" checked>
+      <input type="radio" id="slide-2" name="slides">
+      <input type="radio" id="slide-3" name="slides">
+      <input type="radio" id="slide-4" name="slides">
+      <div class="carousel" id="slides">
+        <div class="carousel-overflow">
+          <div class="slide-item slide-1">
+            <img src="" alt="0">
+          </div>
+          <div class="slide-item slide-2">
+            <img src="" alt="1">
+          </div>
+          <div class="slide-item slide-3">
+            <img src="" alt="2">
+          </div>
+          <div class="slide-item slide-4">
+            <img src="" alt="3">
+          </div>
+        </div>
+      </div>
+      <ol class="dots-container" id="slider-dots">
+        <li> <label for="slide-1" class="dot dot-1"><span class="span-dot"></span></label></li>
+        <li><label for="slide-2" class="dot dot-2"><span class="span-dot"></span></label> </li>
+        <li><label for="slide-3" class="dot dot-3"><span class="span-dot"></span></label> </li>
+        <li> <label for="slide-4" class="dot dot-4"><span class="span-dot"></span></label></li>
+      </ol>
+      
+    </div>
+  </div>
 </body>
 </html>
