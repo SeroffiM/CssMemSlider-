@@ -15,7 +15,7 @@ img {
 }
 .main { 
   background: rgb(51, 49, 49);
-  padding: 25px 10%;
+  padding: 2.5rem 10%;
   box-sizing: border-box;
   width: 100%;
   height: 100vh;
@@ -28,7 +28,7 @@ img {
     "text dots";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 65vh 1fr;
-  row-gap: 20px;
+  row-gap: 2rem;
 }
 #slides {
   grid-area: slides;
@@ -92,8 +92,8 @@ img {
 
 
 .span-dot {
-  width: 20px;
-  height: 20px;
+  width: 2rem;
+  height: 2rem;
   background: #6d9ac9;
   display: block;
   border-radius: 50%;
@@ -110,8 +110,8 @@ input[type=radio] {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  width: 50px;
-  height: 50px;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
 }
 .dot:hover .span-dot {
@@ -131,7 +131,7 @@ input[type=radio] {
   height: 100%;
 }
 .slide-item img {
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 .carousel-overflow
 {
@@ -183,7 +183,7 @@ input[type=radio] {
   row-gap: 5px;
   }
   .main {
-    padding: 15px;
+    padding: 1.rem;
   }
   .dot {
     font-size: 6rem;
