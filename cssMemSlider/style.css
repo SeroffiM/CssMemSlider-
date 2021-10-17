@@ -166,3 +166,32 @@ input[type=radio] {
   opacity: 0;
   width: 100%;
 }
+
+@media (max-width:1200px) {
+  .slide-text {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width:700px) {
+  .slides-container {
+  grid-template-areas: 
+    "slides"
+    "dots"
+    "text";
+  grid-template-columns: 1fr ;
+  grid-template-rows: 55vh 1fr 10fr;
+  row-gap: 5px;
+  }
+  .main {
+    padding: 15px;
+  }
+  .dot {
+    font-size: 6rem;
+  }
+  .dots-container {
+    justify-content: center;
+  }
+  .slide-text {
+    font-size: 2rem;
+  }
+}
